@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-family: serif;
+}
+.app {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(196, 136, 17);
+  padding: 50px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputfield label {
+  display: inline-block;
+  width: 400px;
+  font-size: 20px;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 20px 0px;
+  width: 300px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 0px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.output {
+  padding: 20px 0px;
+  font-size: 24px;
+  font-weight: bold;
+}
