@@ -1,22 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 h1 {
   font-size: 40px;
+  color: #e5eaf5;
+  margin-bottom: 30px;
 }
 p {
   font-family: serif;
 }
 .app {
-  width: 400px;
-  height: 300px;
-  background-color: rgb(196, 136, 17);
+  width: 800px;
+  height: 500px;
+  background-color: whitesmoke;
   padding: 50px 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
 }
 
 .inputfield label {
@@ -44,6 +60,8 @@ button {
   border-radius: 5px;
   margin-right: 10px;
   font-weight: bold;
+  background-color: rgb(47, 44, 44);
+  color: #e5eaf5;
 }
 
 button:hover {
